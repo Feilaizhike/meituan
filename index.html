@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <title>深圳美团网</title>
     <meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, width=device-width, user-scalable=no"/>
+
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="css/swiper.min.css">
 </head>
@@ -38,10 +39,18 @@
             <span>输入商家/品类/商圈</span>
         </a>
     </div>
-    <div class="header_right">
-        <a href="">
+    <div class="header_right" id="header_right">
+        <span >
             <img src="image/header_more.png"/>
-        </a>
+        </span>
+    </div>
+    <div class="header_more" id="header_more">
+        <ul>
+            <li><img src="image/header_look.png">扫一扫</li>
+            <li><img src="image/header_money.png">付款码</li>
+            <li><img src="image/header_ticket.png">开发票</li>
+            <li><img src="image/header_bike.png">骑单车</li>
+        </ul>
     </div>
 </div>
 <!-- 推荐轮播图 -->
@@ -269,17 +278,57 @@
             <div class="guess_word">
                 <h3><strong>日暮里居酒屋</strong><span>564m</span></h3>
                 <p>[梅林]两份套餐，提供免费WiFi</p>
-                <p><em>&yen;159</em>门市价&yen;213<span>已售215</span></p>
+                <p><em>&yen;159 </em>门市价&yen;213<span>已售215</span></p>
             </div>
         </div>
     </a>
+</div>
+<!--查看全部-->
+<div class="readAll">
+    <a href="#">
+        <div class="readAll_body">
+            <p>查看全部团购</p>
+            <span></span>
+        </div>
+    </a>
+</div>
+<!--尾部-->
+<div class="footer">
+    <div class="footer_body">
+        <div class="footer_first">
+            <div class="footer_left">
+                <a>登录</a>
+                <a>注册</a>
+            </div>
+            <div class="footer_right">
+                城市：&nbsp;&nbsp;
+                <a>深圳</a>
+            </div>
+        </div>
+        <ul class="footer_second">
+            <li><a>首页</a></li>
+            <li><a>我的</a></li>
+            <li><a>&nbsp;美团下载&nbsp;</a></li>
+            <li><a>电脑版</a></li>
+            <li><a>帮助</a></li>
+        </ul>
+        <div class="footer_tir">
+            友情链接：
+            <a>猫眼电影</a>
+            <a>大众点评</a>
+            <a>美团旅行</a>
+            <a>大众点评下载</a>
+        </div>
+        <div class="footer_last">
+            <span>&copy;2017 美团网 京ICP证070791号</span>
+        </div>
+    </div>
+</div>
+<!--bottom_menu-->
+<div class="bottom_menu">
 
 </div>
 
-
-
-
-<div class="no_use"></div>
 
 
 
@@ -289,6 +338,6 @@
 
 
 <script src="js/swiper.min.js"></script>
-<script src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
