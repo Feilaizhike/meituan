@@ -117,3 +117,24 @@ ul,li {list-style: none;}
 .footer_tir a{text-align: center;margin-right: 0.3rem;color: #30abab;}
 .footer_last{width: 100%;font-size: 0.24rem;color: #999;padding: 0.4rem 0; text-align: center;background: url("image/footer_last.jpg") center repeat-x; }
 .footer_last span{padding: 0 0.3rem; background-color: #f0efed;  }
+/* µ×²¿²Ëµ¥ */
+.bottom_menu{width:100%;background: #fff;position: fixed;bottom: 0;z-index: 1000;}
+.bottom_menu ul{width:100%;text-align: center;}
+.bottom_menu li{width:20%;float: left;padding: 0.2rem 0;}
+.bottom_menu li:hover{color: #035944;}
+.bottom_menu span{display: block;margin: 0 auto;width: 0.7rem;height: 0.7rem;}
+.bottom_menu .bottom_li1{background: url("image/footer01.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li2{background: url("image/footer02.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li3{background: url("image/footer03.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li4{background: url("image/footer04.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li5{background: url("image/footer05.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li1:hover{background: url("image/footer01.1.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li2:hover{background: url("image/footer02.1.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li3:hover{background: url("image/footer03.1.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li4:hover{background: url("image/footer04.1.png") center no-repeat;background-size: 100%;}
+.bottom_menu .bottom_li5:hover{background: url("image/footer05.1.png") center no-repeat;background-size: 100%;}
+.bottom_menu a{width:100%;line-height: 1.5;}
+
+
+
+
